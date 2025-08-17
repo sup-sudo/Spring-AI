@@ -24,7 +24,7 @@ public class AudioGeneration {
     }
 
     @GetMapping
-    public ResponseEntity<byte[]> generateSpeech(@RequestParam(defaultValue = "Great time to be a weeb, gooning process initiated", name = "text") String text) {
+    public ResponseEntity<byte[]> generateSpeech(@RequestParam(defaultValue = "Hi I am chat gpt", name = "text") String text) {
 
         OpenAiAudioSpeechOptions build = OpenAiAudioSpeechOptions.builder()
                 .model("tts-1-hd")

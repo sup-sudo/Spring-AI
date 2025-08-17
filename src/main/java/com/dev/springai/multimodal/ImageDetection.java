@@ -48,7 +48,7 @@ public class ImageDetection {
     }
 
     @GetMapping("/generate")
-    public ResponseEntity<Map<String,String>> generateImage(@RequestParam(name = "prompt", defaultValue = "A girl doing a cosplay of Rias Gremory") String prompt ) {
+    public ResponseEntity<Map<String,String>> generateImage(@RequestParam(name = "prompt", defaultValue = "Sunset in Paris") String prompt ) {
         ImageOptions imageOptions = OpenAiImageOptions.builder()
                 .model("dall-e-3")
                 .width(1024)

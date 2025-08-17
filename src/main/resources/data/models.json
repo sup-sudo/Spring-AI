@@ -1,0 +1,122 @@
+{
+  "OpenAI": [
+    {
+      "name": "GPT-3.5 Turbo",
+      "context_window_tokens": 4096
+    },
+    {
+      "name": "GPT-4 (standard)",
+      "context_window_tokens": 8192
+    },
+    {
+      "name": "GPT-4 (extended)",
+      "context_window_tokens": 32768
+    },
+    {
+      "name": "GPT-4 Turbo / GPT-4o",
+      "context_window_tokens": 128000
+    },
+    {
+      "name": "GPT-4.5 Preview",
+      "context_window_tokens": 128000
+    },
+    {
+      "name": "GPT-4.1 (Full / Mini / Nano)",
+      "context_window_tokens": 1000000
+    },
+    {
+      "name": "o3 / o3-mini / o3-pro",
+      "context_window_tokens": 200000
+    },
+    {
+      "name": "GPT-5 (main / mini / nano / thinking)",
+      "context_window_tokens": 256000
+    },
+    {
+      "name": "GPT-5 Turbo",
+      "context_window_tokens": 1000000
+    },
+    {
+      "name": "gpt-oss-120B / gpt-oss-20B",
+      "context_window_tokens": 128000
+    }
+  ],
+  "Google": [
+    {
+      "name": "Gemini 2.5 Pro / Flash (MAX mode)",
+      "context_window_tokens": {
+        "input": 1048576,
+        "output": 65536
+      }
+    },
+    {
+      "name": "Gemini 2.0 Flash",
+      "context_window_tokens": {
+        "input": 1048576,
+        "output": 8192
+      }
+    },
+    {
+      "name": "Gemini 1.5 Pro",
+      "context_window_tokens": 2000000
+    }
+  ],
+  "Anthropic": [
+    {
+      "name": "Claude 3 (Opus, Sonnet, Haiku)",
+      "context_window_tokens": 200000
+    },
+    {
+      "name": "Claude Sonnet 4 (Enterprise)",
+      "context_window_tokens": 1000000
+    }
+  ],
+  "xAI": [
+    {
+      "name": "Grok-4",
+      "context_window_tokens": 256000
+    },
+    {
+      "name": "Grok-3",
+      "context_window_tokens": 1000000
+    },
+    {
+      "name": "Grok-1.5",
+      "context_window_tokens": 131072
+    }
+  ],
+  "Meta": [
+    {
+      "name": "LLaMA 3 (70B)",
+      "context_window_tokens": 8000
+    },
+    {
+      "name": "LLaMA 3 (400B enterprise variant)",
+      "context_window_tokens": 32000
+    },
+    {
+      "name": "LLaMA 4 (rumored 2025 release)",
+      "context_window_tokens": 128000
+    }
+  ],
+  "Alibaba": [
+    {
+      "name": "Qwen 2.5 (72B)",
+      "context_window_tokens": 128000
+    },
+    {
+      "name": "Qwen 2.5 Max",
+      "context_window_tokens": 1000000
+    }
+  ],
+  "Mistral": [
+    {
+      "name": "Mixtral 8x22B",
+      "context_window_tokens": 64000
+    },
+    {
+      "name": "Mistral Large (2025)",
+      "context_window_tokens": 128000
+    }
+  ]
+}
