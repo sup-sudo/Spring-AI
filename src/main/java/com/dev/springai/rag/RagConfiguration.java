@@ -43,7 +43,7 @@ public class RagConfiguration {
             TokenTextSplitter tokenTextSplitter = new TokenTextSplitter();
             List<Document> apply = tokenTextSplitter.apply(documents);
             simpleVectorStore.add(apply);
-            simpleVectorStore.save(vectorStoreFile  );
+            simpleVectorStore.save(vectorStoreFile);
         }
         return simpleVectorStore;
     }
